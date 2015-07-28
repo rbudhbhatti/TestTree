@@ -41,6 +41,9 @@ public class Main {
 
 //        System.out.println("Given a binary search tree, design an algorithm which creates a linked list of all the nodes at each depth");
 //        b1.findNodesOnLevel(root);
+
+        System.out.println("Write an algorithm to find the ‘next’ node (e g , in-order successor) of a given node in a binary search tree where each node has a link to its parent");
+        b1.findSuccessor(n4);
     }
 }
 

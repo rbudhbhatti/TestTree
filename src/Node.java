@@ -9,6 +9,11 @@ class Node<T extends Comparable<?>> {
         this.data = data;
     }
 
+    public Node() {
+        this.left = left;
+        this.right = right;
+    }
+
     public void setData(T data) {
         this.data = data;
     }
@@ -32,4 +37,6 @@ class Node<T extends Comparable<?>> {
     public Node getRight() {
         return right;
     }
+
+
 }

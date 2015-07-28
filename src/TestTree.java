@@ -142,4 +142,33 @@ class TestTree {
         }
 
     }
+    public Node findParent(Node n) {
+        Node parent = new Node();
+
+        return  parent;
+    }
+
+    public Node findSuccessor(Node n) {
+        Node parent;
+        if(n == null) {
+            return null;
+        }
+        if(n.right!= null){
+            return n.right;
+        }else if(n.findparent!= null){
+            parent = n.findparent;
+            if(parent.left == n){
+                return parent; //if the node is the left child, parent is the sucessor
+            }else{
+                while(((parent = n.findparent)!=null)){
+                    if(parent.left = n){
+                        break;
+                    }
+                    e = parent;
+                } // if node is the right child, parent's parent will be the suc
+                return parent;
+            }
+            
+        }
+    }
 }
